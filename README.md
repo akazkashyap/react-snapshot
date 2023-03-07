@@ -2,6 +2,7 @@
 
 This is a wallpaer react app.
 Here you can search wallpapers and download them.
+![Screenshot at 2023-03-07 18-42-22](https://user-images.githubusercontent.com/52403079/223427927-ae379b7d-e00d-4111-baac-eb43ea50a81e.png)
 
 https://user-images.githubusercontent.com/52403079/223426896-741a07a8-c1f3-4f5d-b521-0821343d950b.png
 
