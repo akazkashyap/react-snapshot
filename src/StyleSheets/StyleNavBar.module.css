@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav li {
+    margin: 10px;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav li:hover {
+    cursor: pointer;
+}
