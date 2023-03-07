@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Snapshot React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a wallpaer react app.
+Here you can search wallpapers and download them.
 
 ## Available Scripts
 
