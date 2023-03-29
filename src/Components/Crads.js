@@ -13,7 +13,8 @@ const Crads = () => {
 
 
     return (
-        <div className={styles.gridBox}>
+        <div id='image-cards' 
+            className={styles.gridBox}>
             <div className={styles.cards}>
                 {
                     !data ? "loading" :

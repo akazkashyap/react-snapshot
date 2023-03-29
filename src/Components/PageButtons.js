@@ -7,6 +7,7 @@ const PageButtons = () => {
     const handleIncrease = ()=>{
         if (data.length < 48) return alert("No more results")
         changePage()
+        document.getElementById("image-cards").scrollIntoView({ behavior: "smooth" })
     }
     const handleDecrease = () =>{
         if(pageNum === 1) return alert (`You are on the page no. ${pageNum} so can't go back`)

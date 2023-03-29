@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useRef } from 'react'
 import { Context } from '../Context/Context'
 import styles from "../StyleSheets/StyleNavBar.module.css"
 
@@ -11,8 +11,11 @@ const NavBar = () => {
         getData(e.target.text)
     }
     return (
-        <nav >
-            <ul className={styles.nav} onClick={clickHandler}>
+        <nav id='nav-bar'>
+            <ul
+                className={styles.nav}
+                onClick={clickHandler}
+                >
                 <li><a src="#">Mountains</a></li>
                 <li><a src="#">Beaches</a></li>
                 <li><a src="#">Oceans</a></li>
