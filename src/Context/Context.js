@@ -1,4 +1,4 @@
-import React, { Children, useReducer } from "react";
+import React, { useReducer } from "react";
 import mainApi from "../Api/mainApi";
 export const Context = React.createContext()
 
@@ -16,6 +16,7 @@ const reducer = (state, action) => {
         case "changePage":
             if (state.pageNum + action.payload >= 1 && state.data.length >= 48)
                 return { ...state, pageNum: state.pageNum + action.payload }
+            return state
 
         case "reset_pages":
             return { ...state, pageNum: 1 }
