@@ -9,7 +9,7 @@ const HomeScreen = () => {
     return (
         <ContextProvider>
             <div>
-                <h1>SnapShot v4</h1>
+                <h1>SnapShot v1</h1>
                 <SearchBar />
                 <NavBar />
                 <Crads />
